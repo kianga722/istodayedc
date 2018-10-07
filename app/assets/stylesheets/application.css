@@ -13,3 +13,29 @@
  *= require_tree .
  *= require_self
  */
+
+
+ /*
+ Header Styling
+ */
+header {
+    margin-bottom: 30px;
+    text-align: center;
+
+    color: #a3c3ed;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 32px;
+}
+
+ /*
+ Yes No Styling
+ */
+
+section div {
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+
+    font-size: 128px;
+    text-transform: uppercase;
+}
