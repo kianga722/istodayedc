@@ -9,10 +9,10 @@ class StaticPagesController < ApplicationController
                   Date.new(2019,8,30),
                   Date.new(2019,9,1)]
 
-        #zooday = [Date.new(2019,8,31),
-        #          Date.new(2019,8,30),
-        #          Date.new(2019,9,1),
-        #          Date.new(2018,10,7)]
+        zooday = [Date.new(2019,8,31),
+                  Date.new(2019,8,30),
+                  Date.new(2019,9,1),
+                  Date.new(2018,10,7)]
 
         @zoo = true if zooday.include?(Date.current)
 
