@@ -4,14 +4,28 @@
 
 
 <section>
-    <div id="answer">
-        <% if @zoo %>
-            Yes!
-        <% else %>
-            No
-        <% end %>
-    </div>
+    <% if @zoo %>
+        <div id="answer">
+            Yes!!
+        </div>
+        </section>
+        <section>
+            <%= image_tag("happykratos.jpg", width: "700", alt: "Happy Rage Man") %>
+        </section>
+    <% else %>
+        <div id="answer">
+            No 
+        </div>      
+        </section>
+        <section>
+            <%= image_tag("sadfrog.jpg", width: "300", alt: "Sad Face Frog") %>
+        </section>
 </section>
+    <% end %>
+
+
+
+
 
 
 <script>

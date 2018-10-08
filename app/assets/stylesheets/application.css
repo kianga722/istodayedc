@@ -31,11 +31,16 @@ header {
  Yes No Styling
  */
 
-section div {
-    width: 25%;
-    margin: 0 auto;
-    text-align: center;
+section {
+    display: flex;
+    justify-content: center;
+}
 
+#answer {
     font-size: 128px;
     text-transform: uppercase;
+}
+
+section img {
+    display: block;
 }
