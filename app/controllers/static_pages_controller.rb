@@ -52,8 +52,6 @@ class StaticPagesController < ApplicationController
         @borderstyleb = borderstyle.sample
         @borderstylel = borderstyle.sample
 
-
-
         @paddingt = rand(100)
         @paddingr = rand(100)
         @paddingb = rand(100)
